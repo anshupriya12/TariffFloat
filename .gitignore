@@ -1,0 +1,8 @@
+venv
+.vscode
+.env
+palm_oil_data.db
+__pycache__/
+*.pyc
+
+CPO/
