@@ -11,6 +11,9 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.2-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://phnm4ap3n6nhkxnxgrjguk.streamlit.app)
+
+
 </div>
 
 ---
@@ -362,11 +365,18 @@ Opens at `http://localhost:8501`.
 | [IMF Commodity Prices](https://www.imf.org/external/np/res/commod/index.aspx) | No | Public download | Documented World Bank values |
 
 ---
+## Deployment — Streamlit Cloud
 
-## Deployment — Hugging Face Spaces
+TariffFloat is deployed on Streamlit Community Cloud.
 
-The `HF_Space/` directory is the production deployment version, configured for Hugging Face Spaces with a Docker container (port 8501). Model and data files are tracked via Git LFS.
+🔗 **Live app:** https://phnm4ap3n6nhkxnxgrjguk.streamlit.app
 
+To deploy your own instance:
+1. Fork this repo
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Select your fork, set main file to `app.py`
+4. Add `FRED_API_KEY` in Advanced Settings → Secrets
+5. Click Deploy
 ---
 
 ## P.S. — Key Design Decisions
