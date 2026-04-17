@@ -10,6 +10,9 @@ joblib>=1.3.0
 
 # Time-series forecast (Model 3)
 prophet>=1.1.5
+pystan==2.19.1.1
+cmdstanpy>=1.2.0
+holidays>=0.46
 
 # Visualisation
 plotly>=5.18.0
