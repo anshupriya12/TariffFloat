@@ -24,6 +24,11 @@ st.set_page_config(
 # Custom CSS for palm oil theme
 st.markdown("""
 <style>
+    /* Global text color fix for light backgrounds when in dark mode */
+    .stApp, .main, p, li, span, div.stMarkdown {
+        color: #1a3a0f !important;
+    }
+
     /* Main background with subtle palm plantation gradient */
     .main {
         background: linear-gradient(180deg, 
